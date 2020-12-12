@@ -1,7 +1,7 @@
 const line = require('@line/bot-sdk')
 const client = new line.Client({ channelAccessToken: process.env.ACCESSTOKEN })
 
-exports.handler = function (event, context) {
+exports.create_task = function (event, context) {
   let body = JSON.parse(event.body)
   let text = body.events[0].message.text
   const message = {
