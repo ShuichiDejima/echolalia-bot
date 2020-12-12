@@ -9,8 +9,7 @@
   "author": "ufoo68",
   "license": "MIT",
   "dependencies": {
-    "@line/bot-sdk": "^7.1.0",
-    "crypto": "^1.0.1"
+    "@line/bot-sdk": "^7.1.0"
   },
   "repository": {
     "url": "https://github.com/ufoo68/echolalia-bot"
