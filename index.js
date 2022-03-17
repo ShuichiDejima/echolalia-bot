@@ -6,7 +6,7 @@ exports.handler = function (event, context) {
   let text = body.events[0].message.text
   const message = {
     'type': 'text',
-    'text': `「${text}」と言いました`
+    'text': `「${text}」と言いました。ちゃんちゃん`
   }
   client.replyMessage(body.events[0].replyToken, message)
     .then((response) => {
